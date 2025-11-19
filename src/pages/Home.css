@@ -1,0 +1,45 @@
+.homeStart {
+  position: relative;
+  height: 600px;
+}
+
+.homeStart img {
+  position: absolute;
+  width: 100vw;
+  height: 600px;
+  object-fit: cover;
+}
+
+.startSell {
+  position: relative;
+  background-color: red;
+  width: 400px;
+  height: 300px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+.ownerClothe {
+  display: flex;
+}
+.ownerClothe img {
+  width: 20px;
+  height: 20px;
+  object-fit: cover;
+}
+
+.pictureClothe {
+  width: 230px;
+  height: 360px;
+}
+
+.newOffers {
+  max-width: 1280px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 30px auto auto;
+  gap: 10px;
+}
