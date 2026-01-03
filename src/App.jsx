@@ -6,7 +6,7 @@ import Home from "./pages/Home/Home";
 import Offer from "./pages/Offer/Offer";
 import SignUp from "./pages/SignUp/SignUp";
 import LogIn from "./pages/LogIn/LogIn";
-import Publish from "./pages/Publish/publish";
+import Publish from "./pages/Publish/Publish";
 import Payment from "./pages/Payment/Payment";
 
 import "./App.css";
