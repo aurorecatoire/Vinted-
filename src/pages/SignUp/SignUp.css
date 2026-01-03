@@ -146,12 +146,12 @@
   margin: 0 auto;
   height: 40px;
   width: 275px;
->>>>>>> 179601914db46c50fcb3bea61c702416fdeb91c6
+
   background-color: #2cb1ba;
   color: white;
   border: none;
   border-radius: 10px;
-<<<<<<< HEAD
+
   font-size: 16px;
   cursor: pointer;
   transition: background-color 0.3s ease;
@@ -172,10 +172,8 @@
 a {
   text-decoration: none;
 }
-=======
-  font-size: 15px;
-  margin-top: 50px;
-}
+
+
 
 .already_account{
   color: #2cb1ba;
@@ -184,4 +182,3 @@ a {
 }
 
 a {text-decoration: none;}
->>>>>>> 179601914db46c50fcb3bea61c702416fdeb91c6
