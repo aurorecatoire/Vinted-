@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 /* Structure générale */
 .login-page {
   display: flex;
@@ -24,7 +23,7 @@
   gap: 25px;
 }
 
-/* Inputs */
+/* Champs du formulaire */
 .login-input {
   width: 100%;
   height: 40px;
@@ -41,58 +40,14 @@
   border-bottom: 2px solid #ff4d4d;
 }
 
-/* Bouton */
+/* Bouton de connexion */
 .login-button {
   width: 100%;
   height: 45px;
-=======
-/* structure générale */
-.logIn {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-/* titre*/
-.connexion {
-  text-align: center;
-  margin-top: 50px;
-  margin-bottom: 30px;
-  font-size: 26px;
-  font-weight: 400;
-}
-
-/* formulaire */
-.form_logIn {
-  display: flex;
-  flex-direction: column;
-  width: 275px;
-  margin: 0 auto;
-  margin-bottom: 30px;
-}
-
-/* Champs du formulaire */
-.form_logIn input {
-  border: none;
-  outline: none;
-  border-bottom: 0.5px solid #ff0000;
-  width: 100%;
-  height: 35px;
-  font-size: 16px;
-  color: black;
-}
-
-/* Bouton de connexion */
-.logIn button {
-  height: 40px;
-  width: 275px;
->>>>>>> 179601914db46c50fcb3bea61c702416fdeb91c6
   background-color: #2cb1ba;
   color: white;
   border: none;
   border-radius: 10px;
-<<<<<<< HEAD
   font-size: 16px;
   cursor: pointer;
   transition: background-color 0.3s ease;
@@ -116,16 +71,6 @@
   margin-top: 20px;
   color: #2cb1ba;
   font-size: 14px;
-=======
-  font-size: 15px;
-}
-
-/* liens */
-.no_account {
-  color: #2cb1ba;
-  margin-top: 20px;
-  font-size: 13px;
->>>>>>> 179601914db46c50fcb3bea61c702416fdeb91c6
 }
 
 a {
