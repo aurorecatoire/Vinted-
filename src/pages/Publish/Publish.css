@@ -1,12 +1,20 @@
 /* Structure générale */
+<<<<<<< HEAD
 .publish-page {
+=======
+.publish {
+>>>>>>> 179601914db46c50fcb3bea61c702416fdeb91c6
   background-color: #ebedee;
   min-height: 100vh;
   padding: 20px 0;
   font-family: Arial, sans-serif;
 }
 
+<<<<<<< HEAD
 .publish-container {
+=======
+.container_publish {
+>>>>>>> 179601914db46c50fcb3bea61c702416fdeb91c6
   max-width: 800px;
   margin: 0 auto;
   width: 90%;
@@ -15,7 +23,11 @@
   gap: 20px;
 }
 
+<<<<<<< HEAD
 .publish-page h1 {
+=======
+.publish h1 {
+>>>>>>> 179601914db46c50fcb3bea61c702416fdeb91c6
   font-size: 28px;
   text-align: center;
   margin-bottom: 20px;
@@ -23,7 +35,11 @@
 }
 
 /* Formulaire */
+<<<<<<< HEAD
 .publish-form {
+=======
+.form_publish {
+>>>>>>> 179601914db46c50fcb3bea61c702416fdeb91c6
   display: flex;
   flex-direction: column;
   gap: 25px;
@@ -33,34 +49,54 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
 }
 
+<<<<<<< HEAD
 .publish-form section {
+=======
+.form_publish section {
+>>>>>>> 179601914db46c50fcb3bea61c702416fdeb91c6
   display: flex;
   flex-direction: column;
   gap: 15px;
 }
 
+<<<<<<< HEAD
 .publish-border-bottom {
+=======
+.border_bottom {
+>>>>>>> 179601914db46c50fcb3bea61c702416fdeb91c6
   border-bottom: 1px solid #ebedee;
   padding-bottom: 10px;
 }
 
+<<<<<<< HEAD
 /* Labels */
 .publish-form label {
+=======
+/* Labels et inputs  */
+label {
+>>>>>>> 179601914db46c50fcb3bea61c702416fdeb91c6
   font-weight: 600;
   margin-bottom: 5px;
   color: #555;
 }
 
+<<<<<<< HEAD
 /* Inputs spécifiques à Publish */
 .publish-page input[type="text"],
 .publish-page input[type="file"],
 .publish-page .publish-price {
+=======
+input[type="text"],
+input[type="file"],
+.price {
+>>>>>>> 179601914db46c50fcb3bea61c702416fdeb91c6
   width: 100%;
   padding: 10px;
   border: 1px solid #ddd;
   border-radius: 5px;
   font-size: 16px;
   outline: none;
+<<<<<<< HEAD
   box-sizing: border-box;
 }
 
@@ -71,13 +107,28 @@
 
 /* Upload image */
 .publish-picture {
+=======
+}
+
+input[type="text"]:hover,
+input[type="file"]:hover {
+  border-color: #44b1ba;
+}
+
+/* Upload image  */
+.picture {
+>>>>>>> 179601914db46c50fcb3bea61c702416fdeb91c6
   display: flex;
   justify-content: center;
   align-items: center;
   height: 200px;
 }
 
+<<<<<<< HEAD
 .publish-file-label {
+=======
+.file_picture {
+>>>>>>> 179601914db46c50fcb3bea61c702416fdeb91c6
   border: 2px dashed #44b1ba;
   border-radius: 10px;
   color: #44b1ba;
@@ -91,6 +142,7 @@
   transition: background-color 0.3s;
 }
 
+<<<<<<< HEAD
 .publish-file-input {
   display: none;
 }
@@ -101,30 +153,59 @@
 
 /* Prix et échange */
 .publish-price-exchange {
+=======
+.picture_download {
+  display: none;
+}
+
+.file_picture:hover {
+  background-color: rgba(68, 177, 186, 0.1);
+}
+
+/* Prix et échange  */
+.price_exchange {
+>>>>>>> 179601914db46c50fcb3bea61c702416fdeb91c6
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 20px;
 }
 
+<<<<<<< HEAD
 .publish-price-exchange > div {
+=======
+.price_exchange > div {
+>>>>>>> 179601914db46c50fcb3bea61c702416fdeb91c6
   display: flex;
   align-items: center;
   gap: 10px;
 }
 
+<<<<<<< HEAD
 .publish-checkbox {
+=======
+.checkbox_exchange {
+>>>>>>> 179601914db46c50fcb3bea61c702416fdeb91c6
   width: 20px;
   height: 20px;
 }
 
+<<<<<<< HEAD
 .publish-exchange span {
+=======
+.exchange span {
+>>>>>>> 179601914db46c50fcb3bea61c702416fdeb91c6
   font-size: 16px;
   color: #555;
 }
 
+<<<<<<< HEAD
 /* Bouton */
 .publish-button {
+=======
+/* Bouton  */
+.publish button {
+>>>>>>> 179601914db46c50fcb3bea61c702416fdeb91c6
   width: 100%;
   padding: 12px;
   font-size: 18px;
@@ -134,6 +215,7 @@
   border: none;
   border-radius: 8px;
   cursor: pointer;
+<<<<<<< HEAD
   transition: background-color 0.3s;
 }
 
@@ -144,12 +226,28 @@
 /* Mobile */
 @media (max-width: 768px) {
   .publish-price-exchange {
+=======
+}
+
+.publish button:hover {
+  background-color: #36929e;
+}
+
+/* Mobile  */
+@media (max-width: 768px) {
+  .price_exchange {
+>>>>>>> 179601914db46c50fcb3bea61c702416fdeb91c6
     flex-direction: column;
     align-items: flex-start;
   }
 
+<<<<<<< HEAD
   .publish-page input[type="text"],
   .publish-page .publish-price {
+=======
+  input[type="text"],
+  .price {
+>>>>>>> 179601914db46c50fcb3bea61c702416fdeb91c6
     width: 100%;
   }
 }
