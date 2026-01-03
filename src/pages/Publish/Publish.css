@@ -1,0 +1,155 @@
+/* Structure générale */
+.publish-page {
+  background-color: #ebedee;
+  min-height: 100vh;
+  padding: 20px 0;
+  font-family: Arial, sans-serif;
+}
+
+.publish-container {
+  max-width: 800px;
+  margin: 0 auto;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.publish-page h1 {
+  font-size: 28px;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Formulaire */
+.publish-form {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+.publish-form section {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.publish-border-bottom {
+  border-bottom: 1px solid #ebedee;
+  padding-bottom: 10px;
+}
+
+/* Labels */
+.publish-form label {
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+/* Inputs spécifiques à Publish */
+.publish-page input[type="text"],
+.publish-page input[type="file"],
+.publish-page .publish-price {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.publish-page input[type="text"]:hover,
+.publish-page input[type="file"]:hover {
+  border-color: #44b1ba;
+}
+
+/* Upload image */
+.publish-picture {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+
+.publish-file-label {
+  border: 2px dashed #44b1ba;
+  border-radius: 10px;
+  color: #44b1ba;
+  font-size: 24px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.publish-file-input {
+  display: none;
+}
+
+.publish-file-label:hover {
+  background-color: rgba(68, 177, 186, 0.1);
+}
+
+/* Prix et échange */
+.publish-price-exchange {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.publish-price-exchange > div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.publish-checkbox {
+  width: 20px;
+  height: 20px;
+}
+
+.publish-exchange span {
+  font-size: 16px;
+  color: #555;
+}
+
+/* Bouton */
+.publish-button {
+  width: 100%;
+  padding: 12px;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  background-color: #44b1ba;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.publish-button:hover {
+  background-color: #36929e;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .publish-price-exchange {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .publish-page input[type="text"],
+  .publish-page .publish-price {
+    width: 100%;
+  }
+}

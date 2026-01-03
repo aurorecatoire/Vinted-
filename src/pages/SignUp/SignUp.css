@@ -1,0 +1,97 @@
+/* Structure générale */
+.signup-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 60px 20px;
+  font-family: Arial, sans-serif;
+}
+
+/* Titre */
+.signup-title {
+  font-size: 28px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+/* Formulaire */
+.signup-form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  gap: 25px;
+}
+
+/* Inputs */
+.signup-input {
+  width: 100%;
+  height: 40px;
+  padding: 5px 10px;
+  font-size: 16px;
+  color: black;
+  border: none;
+  border-bottom: 2px solid #ff0000;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.signup-input:focus {
+  border-bottom: 2px solid #ff4d4d;
+}
+
+/* Checkbox newsletter */
+.signup-newsletter {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 14px;
+}
+
+.signup-checkbox {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.signup-conditions {
+  font-size: 12px;
+  color: #555;
+  line-height: 1.4;
+}
+
+/* Message d'erreur */
+.signup-error {
+  color: red;
+  font-size: 13px;
+  text-align: center;
+}
+
+/* Bouton */
+.signup-button {
+  width: 100%;
+  height: 45px;
+  background-color: #2cb1ba;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.signup-button:hover {
+  background-color: #26a0a8;
+}
+
+/* Lien vers login */
+.signup-alreadyaccount {
+  text-align: center;
+  margin-top: 20px;
+  color: #2cb1ba;
+  font-size: 14px;
+}
+
+a {
+  text-decoration: none;
+}

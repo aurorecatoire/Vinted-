@@ -1,0 +1,105 @@
+/* Structure générale de la page Offer */
+.mainOffer {
+  background-color: #e1e2e2;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.containerOffer {
+  max-width: 1280px;
+  display: flex;
+  margin: 30px auto;
+  gap: 80px;
+}
+
+/* Affichage du produit */
+.clothe {
+  width: 400px;
+  height: 600px;
+}
+
+.infoProduct {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 350px;
+  padding: 40px;
+  height: 600px;
+  background-color: white;
+}
+
+/* Prix et informations générales */
+.price {
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.generalInfo {
+  height: 140px;
+}
+
+.generalInfo div {
+  display: flex;
+  margin-top: 10px;
+}
+
+.key {
+  color: #999;
+  font-size: 14px;
+  width: 40%;
+}
+
+.value {
+  color: #666;
+  font-size: 14px;
+  width: 60%;
+}
+
+/* Titre et description du produit */
+.TitleandSeller {
+  border-top: 1px solid #999;
+  display: flex;
+  flex-direction: column;
+  padding-top: 30px;
+}
+
+.productName {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.productDescription {
+  font-size: 16px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* Informations sur le vendeur */
+.seller {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.seller img {
+  height: 50px;
+  width: 50px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+/* Bouton d'achat */
+.ButtonOfferBuy {
+  margin-top: 20px;
+  color: white;
+  font-size: 16px;
+  background-color: #44b1ba;
+  border: none;
+  line-height: 36px;
+  height: 36px;
+  border-radius: 10px;
+  width: 100%;
+  text-align: center;
+}

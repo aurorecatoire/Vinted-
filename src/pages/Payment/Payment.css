@@ -1,0 +1,54 @@
+/* Structure générale de la page */
+.main_payment {
+  background-color: #ecedee;
+  height: 1000px;
+}
+
+.container_payment {
+  background-color: white;
+  max-width: 600px;
+  width: 100%;
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/* Titre résumé de commande */
+.resumeOrder {
+  font-size: 15px;
+  text-align: start;
+  margin-top: 20px;
+}
+
+/* Détails des prix */
+.price_details {
+  height: 100px;
+  padding-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-size: 16px;
+}
+
+.price_subjects {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Total à payer */
+.total_price_payment div {
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.total_price_payment p {
+  font-size: 18px;
+  margin: 40px 0 40px 0;
+}
+
+.total_price_payment span {
+  font-weight: bold;
+}
