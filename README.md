@@ -1,16 +1,168 @@
-# React + Vite
+👕 Vinted– Application Full-Stack
+📌 Présentation
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Vinted- est une application Full-Stack inspirée de la plateforme Vinted.
+Elle permet aux utilisateurs de consulter des offres, créer un compte, se connecter, publier des annonces et effectuer des paiements sécurisés lorsqu’ils sont authentifiés.
 
-Currently, two official plugins are available:
+Ce projet a été réalisé dans un objectif d’apprentissage et de démonstration de compétences Full-Stack.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🎯 Objectifs du projet
 
-## React Compiler
+Mettre en place une authentification complète
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Gérer l’inscription, la connexion et la déconnexion
 
-## Expanding the ESLint configuration
+Créer et afficher des offres
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Implémenter un processus de paiement
+
+Protéger certaines routes selon l’état de connexion
+
+Concevoir une architecture Frontend / Backend
+
+🛠️ Technologies utilisées
+
+Frontend
+
+React
+
+React Router
+
+Axios
+
+CSS / Styled Components / autre
+
+Gestion de l’état utilisateur (Context API / autre)
+
+Hébergement : Netlify
+
+Backend
+
+Node.js
+
+Express
+
+MongoDB
+
+Mongoose
+
+JWT (JSON Web Token) pour l’authentification
+
+Stripe pour les paiements
+
+Hébergement : NorthFlank
+
+🔐 Authentification
+
+Inscription avec :
+
+Email
+
+Nom d’utilisateur
+
+Mot de passe sécurisé (hashé)
+
+Déconnexion
+
+Protection des routes sensibles
+
+Persistance de la session utilisateur
+
+📂 Fonctionnalités
+
+🛍️ Offres
+
+Visualisation de toutes les offres disponibles
+
+Affichage des détails d’une offre :
+
+Image
+
+Titre
+
+Description
+
+Prix
+
+Informations du vendeur
+
+✍️ Création d’une offre
+
+Accessible uniquement si l’utilisateur est connecté
+
+Formulaire de création avec :
+
+Titre
+
+Description
+
+Prix
+
+Image
+
+Upload d’image
+
+Enregistrement en base de données
+
+💳 Paiement
+
+Processus de paiement sécurisé via Stripe
+
+Paiement possible uniquement pour les utilisateurs connectés
+
+Confirmation de paiement
+
+👤 Compte utilisateur
+
+Inscription
+
+Connexion
+
+Déconnexion
+
+Gestion de l’état utilisateur côté frontend
+
+🧭 Navigation
+
+Barre de navigation :
+
+Offres
+
+Connexion / Inscription
+
+Publier une annonce (visible si connecté)
+
+Déconnexion (si connecté)
+
+Redirection automatique selon l’état de connexion
+
+🚀 Déploiement
+
+Frontend (Netlify)
+
+Backend (NorthFlank)
+
+
+🧠 Axes d’amélioration
+
+Filtrage et recherche avancée des offres
+
+Messagerie entre utilisateurs
+
+Gestion des profils utilisateurs
+
+Historique des achats
+
+Tests unitaires et end-to-end
+
+Responsive avancé
+
+👨‍💻 Auteur
+
+Projet réalisé par Aurore Catoire 
+
+Dans le cadre d’un projet Full-Stack
+
+⚠️ Disclaimer
+
+Ce projet est une réplique à but pédagogique et n’a aucun lien officiel avec la plateforme Vinted.
